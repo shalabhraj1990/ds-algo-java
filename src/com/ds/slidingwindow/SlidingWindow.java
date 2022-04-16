@@ -1,0 +1,24 @@
+package com.ds.slidingwindow;
+
+public class SlidingWindow {
+	public static void main(String[] args) {
+		int[] arr = new int[] { 8, 2, 9, 6, 7, 1 };
+		int windowSize = 3;
+		slidingWindow(arr, windowSize);
+	}
+
+	private static void slidingWindow(int[] arr, int windowSize) {
+		int sum = 0;
+		for (int i = 0; i <= windowSize - 1; i++) {
+			sum += arr[i];
+		}
+		System.out.println(sum);
+		for (int i = 1; i < arr.length - windowSize + 1; i++) {
+			int removed = arr[i-1];
+			int added = arr[i + windowSize - 1];
+			sum = sum - removed + added;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+			System.out.println(sum);
+		}
+
+	}
+}
