@@ -1,7 +1,19 @@
+import com.ds.stack.StackDemo;
+
 class Test {
 	public static void main(String[] args) {
-		int[] arr = new int[] { 3, 6, 7, 11 };
-		System.out.println(minEatingSpeed(arr, 8));
+		StackDemo st = new StackDemo();
+		
+		st.push(4);
+		st.push(7);
+		st.push(2);
+		st.push(9);
+		//st.pop();
+		System.out.println(st.top());
+		
+		
+//		int[] arr = new int[] { 3, 6, 7, 11 };
+//		System.out.println(minEatingSpeed(arr, 8));
 	}
 
 	public static int minEatingSpeed(int[] piles, int h) {
