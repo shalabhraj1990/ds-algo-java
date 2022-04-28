@@ -2,7 +2,7 @@ package com.ds.stack;
 
 import java.util.Stack;
 
-public class BalacedParenthesis {
+public class Pattern1BalacedParenthesis {
 	public static void main(String[] args) {
 		String str = "({[]})";
 		System.out.println(checkBalacedString(str));
