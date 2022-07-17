@@ -15,10 +15,10 @@ public class LevelOrderTraversal {
 		root.right.right = new TreeNode(7);
 		root.right.right.left = new TreeNode(8);
 		root.right.right.left.left = new TreeNode(9);
-		LevelOrderTraversal(root);
+		funLevelOrderTraversal(root);
 	}
 
-	public static void LevelOrderTraversal(TreeNode root) {
+	public static void funLevelOrderTraversal(TreeNode root) {
 		Queue<TreeNode> q = new LinkedList<>();
 		q.add(root);
 		while (q.size() > 0) {
