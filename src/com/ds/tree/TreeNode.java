@@ -2,14 +2,14 @@ package com.ds.tree;
 
 //Definition for a binary tree node.
 public class TreeNode<T> {
-	T val;
-	TreeNode left;
-	TreeNode right;
+	public T val;
+	public TreeNode left;
+	public TreeNode right;
 
-	TreeNode() {
+	public TreeNode() {
 	}
 
-	TreeNode(T val) {
+	public TreeNode(T val) {
 		this.val = val;
 	}
 
