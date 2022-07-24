@@ -1,6 +1,6 @@
 package com.ds.hundred;
 
-public class Day16_LiskedListCycle {
+public class Day17_LiskedListCycle {
 	public static void main(String[] args) {
 		ListNode head = new ListNode(3);
 		head.next = new ListNode(2);
