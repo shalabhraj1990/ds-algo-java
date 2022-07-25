@@ -3,7 +3,7 @@ package com.ds.hundred;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Day21TargetSum {
+public class Day22TargetSum {
 	public static void main(String[] args) {
 		int[] nums = { 1, 1, 1, 1, 1 };
 		int target = 3;

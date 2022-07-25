@@ -1,6 +1,6 @@
 package com.ds.hundred;
 
-public class Day20_NumberOfIslands {
+public class Day21_NumberOfIslands {
 	public static void main(String[] args) {
 		char[][] grid = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
 				{ '0', '0', '0', '0', '0' } };
